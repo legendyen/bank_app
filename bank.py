@@ -1,19 +1,5 @@
 from bank_account import *
 
-# class Bank:
-#     def __init__(self):
-#         self.accounts = {}
-
-#     def create_account(self, name, initial_balance):
-#         if name in self.accounts:
-#             raise InvalidInput("Account with this name already exists.")
-#         self.accounts[name] = BankAccount(initial_balance, name)
-
-#     def get_account(self, name):
-#         if name not in self.accounts:
-#             raise InvalidInput("No account found with this name.")
-#         return self.accounts[name]
-
 class Bank:
     def __init__(self):
         self.accounts = {}
