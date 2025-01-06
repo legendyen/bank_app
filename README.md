@@ -73,6 +73,7 @@ A Python-based bank application simulating real-world banking operations. The ap
 
 ## Future Enahancement
 1. Add a database for persistent storage. (Currenlty using in-memory Python storage)
+2. Add a search algorithm (e.g., binary search) could be used to quickly find an account by name.
 
 
    
